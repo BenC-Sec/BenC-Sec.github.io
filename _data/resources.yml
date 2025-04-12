@@ -1,0 +1,119 @@
+- title: SANS CTI Cheatsheet
+  url: https://www.sans.org/posters/cti-cheat-sheet-v1/
+  tags: ["Fundamentals", "Cheatsheet"]
+
+- title: Curated Intel's collection of papers, blogs, and resources
+  url: https://github.com/curated-intel/CTI-fundamentals
+  tags: ["Reports", "Guides", "Frameworks", "Research", "Intelligence Programs", "Mitigations"]
+
+- title: Curated Intel's CTI Research guide
+  url: https://github.com/curated-intel/The-CTI-Research-Guide?tab=readme-ov-file
+  tags: ["Guides", "Research", "Collection", "Processing","Analysis"]
+
+- title: Sherman Chu, SANS, Understanding & Managing Collection 
+  url: https://www.youtube.com/watch?v=1BBw9GO7g74
+  tags: ["Video", "Collection", "Biases"]
+
+- title: MITRE ATT&CK Framework Groups
+  url: https://attack.mitre.org/groups/
+  tags: ["Framework", "Threat modeling", "Research", "Intrusion Sets", "TTPs", "Mitigations", "Tools"]
+
+- title: BushidoUK, Threat Intel Sources
+  url:   https://github.com/BushidoUK/Ransomware-Tool-Matrix?tab=readme-ov-file#threat-intel-sources
+  tags: ["Research", "Intrusion Sets", "TTPs"]
+
+- title: Ransomware Live 
+  url: https://www.ransomware.live/map/GB
+  tags: ["Utility", "Collection", "Intrusion Sets", "Victims"]
+
+- title: Hudsonrock's free cybercrime intelligence tools
+  url: https://www.hudsonrock.com/threat-intelligence-cybercrime-tools
+  tags: ["Utility", "Collection", "Victims", "Attack Surface", "Compromise"]
+
+- title: Wiz Cloud Threat Landscape
+  url: https://threats.wiz.io/
+  tags: ["Utility", "Collection", "Intrusion Sets", "Victims", "TTPs", "Mitigations", "Tools"]
+
+- title: OSINT Cyber Threat Intelligence Database
+  url: https://ioc.one/
+  tags: ["Research", "Collection", "Intrusion Sets", "Tools"]
+
+- title: Open Software Supply Chain Attack Reference (OSC&R)
+  url:   https://pbom.dev/
+  tags: ["Research", "Frameworks"]
+
+- title: Censys Internet-wide device and vulnerability scanner
+  url:   https://search.censys.io/
+  tags: ["Research",  "Collection", "Utility"]
+
+- title: CTI Chef STIX Viewer
+  url:   https://ctichef.com/?ref=sourcesmethods.com
+  tags: ["STIX", "Utility"]
+
+- title: CTO at NCSC Weekly news
+  url:   https://ctoatncsc.substack.com/
+  tags: ["Research", "Guides", "Reports"]
+
+- title: Bellingcat’s Online Open Source Investigation Toolkit
+  url:   https://bellingcat.gitbook.io/toolkit
+  tags: ["Research", "Utility", "OSINT", "Guides"]
+
+- title: Attack Evaluation Library
+  url:   https://attackevals.github.io/ael/?ref=sourcesmethods.com
+  tags: ["Framework", "Threat modeling", "Research", "Intrusion Sets", "TTPs", "Tools"]
+
+- title: Natto thoughts
+  url:   https://nattothoughts.substack.com/
+  tags: ["Research", "Reports", "China", "Intrusion Sets", "Threat Actor"]
+
+- title: Sekoia Cyber threats impacting the financial sector 2024
+  url:   https://blog.sekoia.io/cyber-threats-impacting-the-financial-sector-in-2024-focus-on-the-main-actors/
+  tags: ["Research", "Reports", "Financial", "Intrusion Sets", "Threat Actor"]
+
+- title: lasq88 Infrastructure and Malware hunting
+  url:   https://github.com/lasq88/LearingMaterials/blob/main/cyber-threat-intelligence.md#infrastructure-and-malware-hunting
+  tags: ["Guides", "OSINT"]
+
+- title: Silent Push Community Edition 
+  url:   https://www.silentpush.com/community-edition/
+  tags: ["Utility", "OSINT"]
+
+- title: JacobdjWilson Curated list of annual cyber security reports
+  url:   https://github.com/jacobdjwilson/awesome-annual-security-reports/tree/main/
+  tags: ["Research", "Reports", "Intrusion Sets", "Threat Actor"]
+
+- title: Search Github Repositories
+  url:   https://grep.app/
+  tags: ["Utility", "OSINT", "Github"]
+
+- title: Infernux.no Security Monitoring - Threat modelling and data sources
+  url:   https://www.infernux.no/SecurityMonitoring-DataSources/
+  tags: ["Threat modelling", "Walk through"]  
+
+- title: Domain Tools Research
+  url:   https://dti.domaintools.com/
+  tags: ["Research", "Reports", "Intrusion Sets", "TTPs", "Infrastructure"]
+
+- title: Malpedia Threat Actors
+  url:   https://malpedia.caad.fkie.fraunhofer.de/actors
+  tags: ["Research", "Reports", "Intrusion Sets", "TTPs", "Tools"]
+
+- title: Aristiun Threat Modeling
+  url:   https://threat-modeling.com/ultimate-threat-modeling-example-methods/
+  tags: ["Threat modelling", "Guides", "Walkthrough"]  
+
+- title: Rösti Repackaged Öpen Source Threat Intelligence
+  url:   https://rosti.bin.re/
+  tags: ["Reports", "Research", "IOCs"]  
+ 
+- title: Bret Fisher Docker Mastery Udemy 
+  url:   https://www.bretfisher.com/courses/
+  tags: ["Guide", "Walk through", "Docker"]  
+
+- title: MUCHDOGESEC curated list of Threat Intelligence Blogs
+  url:   https://github.com/muchdogesec/awesome_threat_intel_blogs
+  tags: ["Reports", "Research"]  
+
+- title: Mickaël Walter Blog OpenCTI series
+  url:   https://www.mickaelwalter.fr/opencti-basics/
+  tags: ["OpenCTI", "Guide", "Walkthrough", "Docker"]  

@@ -1,0 +1,9 @@
+---
+layout: posts
+title: "Welcome!"
+hide_date: true
+order: 3
+---
+
+Welcome to CTI in practice. I'm currently in the process of adding content to this site. 
+

@@ -1,7 +1,31 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+*.backup
+
+# OS generated files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Ruby
+vendor/
+.bundle/
 Gemfile.lock
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+_posts/2025-03-31-welcome-to-jekyll.markdown

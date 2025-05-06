@@ -14,7 +14,7 @@
   url: https://www.youtube.com/watch?v=1BBw9GO7g74
   tags: ["Video", "Collection", "Biases"]
 
-- title: MITRE ATT&CK Framework Groups
+- title: MITRE ATT&CK Groups
   url: https://attack.mitre.org/groups/
   tags: ["Framework", "Threat modeling", "Research", "Intrusion Sets", "TTPs", "Mitigations", "Tools"]
 
@@ -117,3 +117,35 @@
 - title: Mickaël Walter Blog OpenCTI series
   url:   https://www.mickaelwalter.fr/opencti-basics/
   tags: ["OpenCTI", "Guide", "Walkthrough", "Docker"]  
+
+- title: Cyber Threat Intelligence in Government A Guide for Decision Makers & Analysts
+  url:     https://hodigital.blog.gov.uk/wp-content/uploads/sites/161/2020/03/Cyber-Threat-Intelligence-A-Guide-For-Decision-Makers-and-Analysts-v2.0.pdf
+  tags: ["Guide", "Walkthrough", "Strategy"]  
+
+- title: APT groups and operations name conversion
+  url:   https://apt.threattracking.com
+  tags: ["Research","Intrusion Sets"] 
+
+- title: Joe Slowik Pivoting from Art to Science
+  url:   https://www.youtube.com/watch?v=IhUJH_mgVVk
+  tags: ["Video","OSINT", "IOCs"]  
+
+- title: Lenny Zeltser Writing Effective Threat Reports
+  url:   https://www.youtube.com/watch?v=vwKlNZ6mxak
+  tags: ["Video","Reports"] 
+
+- title: Google Cloud Security APT groups
+  url:   https://cloud.google.com/security/resources/insights/apt-groups#advanced-persistent-threats-apts
+  tags: ["Research","Intrusion Sets"] 
+
+- title: Electronic Transactions Development Agency
+  url:   https://apt.etda.or.th/cgi-bin/listgroups.cgi
+  tags: ["Research","Intrusion Sets"] 
+
+- title: EFF OSINT Tools
+  url:   https://www.eff.org/pages/tools
+  tags: ["Guide","OSINT", "collection"]  
+
+- title: Micheal Bazzell IntelTechniques
+  url:   https://inteltechniques.com/tools/
+  tags: ["Guide","OSINT", "collection", "Utility"] 

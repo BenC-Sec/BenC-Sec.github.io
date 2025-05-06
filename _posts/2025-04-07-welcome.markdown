@@ -1,0 +1,29 @@
+---
+layout: posts
+title: "Welcome!"
+permalink: /welcome/
+hide_date: true
+order: 1
+---
+
+Welcome to CTI in practice.
+
+I'm Ben and this site is dedicated to the practical implementation of CTI.  
+
+This section (<a href="/">Delivery</a>) specifically focuses on the successful delivery of products and assumes no CTI program is in place. However, by following the guidance provided, you will effectively be building one.
+
+I provide practical guidance on creating deliverables. While I will point you to useful resources, I won’t be explaining in depth textbook concepts, this site is where theory meets practice.
+
+For walk throughs to CTI collection see <a href="/collection/">Collection </a>
+
+For guides setting up basic CTI tools including MISP and OpenCTI see <a href="/setup/">Setup Guides </a>
+
+For resources that I've found useful see <a href="/resources/">Resources </a>
+
+If you'd like to know a little more about me see the <a href="/about/">about </a> section
+
+Let's begin and delivery starts with an introduction to <a href="/providing value/">Providing Business Value </a>
+
+
+Site last updated: {{ site.time | date: "%A %-d %B %Y" }}
+

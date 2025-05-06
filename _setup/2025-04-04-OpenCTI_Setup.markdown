@@ -145,7 +145,8 @@ Ensure you are in the docker folder for OpenCTI. After making any changes to you
 After a few minutes, open a browser and go to http://localhost:8080/. Use the username and password set in the .env file to log in.
 
 If you wish to stop OpenCTI then run the command
-  <code style="..."> docker compose down</code>
+  <code style="..."> docker compose stop</code>
 
-
+Then if you wish to start MISP again, run the command
+  <code style="..."> docker compose start</code>
 

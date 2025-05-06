@@ -1,0 +1,30 @@
+---
+layout: posts
+title: "Read First"
+permalink: /Warning/
+hide_date: true
+order: 1
+---
+
+Welcome to CTI in practice.
+
+I'm Ben and this site is dedicated to the practical implementation of CTI.  
+
+This section (<a href="/">collection</a>) specifically focuses on collecting data. 
+
+<div style="background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 12px 16px; border-radius: 6px; font-size: 16px; font-weight: bold; margin-top: 12px;">
+  ⚠️ Be mindful of the websites you visit, as some may pose risks to your privacy and security. For enhanced protection, consider using a specialized OSINT setup that masks your location, limits data sharing, and keeps your online activities private. This setup can help you avoid tracking and protect your personal information from being exposed or exploited.
+</div><br>
+
+I provide practical guidance on collection. While I will point you to useful resources, I won’t be explaining in depth textbook concepts, this site is where theory meets practice.
+
+For a guide to delivering CTI see <a href="/">Delivery </a>
+
+For guides setting up basic CTI tools including MISP and OpenCTI see <a href="/setup/">Setup Guides </a>
+
+For resources that I've found useful see <a href="/resources/">Resources </a>
+
+If you'd like to know a little more about me see the <a href="/about/">About </a> section
+
+Site last updated: {{ site.time | date: "%A %-d %B %Y" }}
+

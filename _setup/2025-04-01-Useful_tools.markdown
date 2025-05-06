@@ -11,7 +11,7 @@ title: "Set Up"
 hide_date: true
 order: 4
 --- -->
-Help installing Docker, Git and Visual Studio
+Help installing Docker, Git and Visual Studio.
 
 I've found that many common tools assume a level of technical knowledge that can make it difficult for entry-level analysts to dive in and start using them effectively. 
 

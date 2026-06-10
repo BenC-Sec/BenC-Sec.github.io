@@ -1,9 +1,8 @@
 ---
-layout: posts
 title: "Deploy OpenCTI"
 permalink: /Deploy OpenCTI/
 hide_date: true
-order: 2
+excerpt: "Stand up OpenCTI with Docker, configure the .env file and wire in your first connectors."
 ---
 
 How to deploy OpenCTI using Docker and get some initial feeds. 

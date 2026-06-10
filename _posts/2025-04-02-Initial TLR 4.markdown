@@ -1,9 +1,12 @@
 ---
-layout: posts
 title: "Initial Threat Landscape Report: Part 4 - Threat Actor TTPs"
 permalink: /initial tlr RTA/
 hide_date: true
-order: 3
+excerpt: "Map each intrusion set's TTPs with MITRE ATT&CK Navigator and combine them into a single priority view."
+tags:
+  - Processing
+  - Analysis
+  - Intermediate
 ---
 
 Mapping Threat Actor TTPs using MITRE ATT&CK

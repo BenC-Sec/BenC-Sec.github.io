@@ -1,9 +1,12 @@
 ---
-layout: posts
 title: "Initial Threat Landscape Report: Part 3 - Converging on specific threats"
 permalink: /initial tlr CST/
 hide_date: true
-order: 3
+excerpt: "Narrow from broad actor classes to the specific intrusion sets likely to target your country and sector."
+tags:
+  - Collection
+  - Analysis
+  - Intermediate
 ---
 
 Continuing the ongoing process of identifying and assessing threats to the business.

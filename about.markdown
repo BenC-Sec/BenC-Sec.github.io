@@ -1,14 +1,23 @@
 ---
-layout: default
-title: About
+title: "About"
+layout: single
 permalink: /about/
-order: 5
+author_profile: true
+toc: false
 ---
 
-Hi, I'm Ben. I'm thrilled to have you here! With over a decade of experience working across intelligence disciplines I've found that much of the guidance is often theoretical, without clear direction on how to apply it to daily activities. Additionally, many common tools assume a level of technical knowledge that can make it difficult for entry-level analysts to dive in and start using them effectively. 
+Hi, I'm Ben — thanks for stopping by.
 
-My goal is to provide clear, practical guidance to help you learn, understand, and effectively apply Cyber Threat Intelligence (CTI).
+With over a decade of experience across intelligence disciplines, I've found that
+much of the available guidance stays theoretical, with little direction on how to
+apply it to day-to-day work. Many common tools also assume a level of technical
+knowledge that makes it hard for entry-level analysts to dive in and use them
+effectively.
 
-I'm continually adding content as I have the time!
+My goal is to provide clear, practical guidance to help you learn, understand and
+effectively apply Cyber Threat Intelligence (CTI) — the theory put into practice.
 
-Site last updated: {{ site.time | date: "%A %-d %B %Y" }}
+I add new content as time allows.
+
+{: .notice--info}
+**Site last updated:** {{ site.time | date: "%A %-d %B %Y" }}

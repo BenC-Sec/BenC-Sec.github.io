@@ -1,9 +1,11 @@
 ---
-layout: posts
 title: "Initial Threat Landscape Report: Part 1 - Language"
 permalink: /initial tlr lan/
 hide_date: true
-order: 3
+excerpt: "Frame cyber risk in business language and standardise TTPs with MITRE ATT&CK."
+tags:
+  - Dissemination
+  - Beginner
 ---
 
 Communication in a business friendly language and format

@@ -1,9 +1,8 @@
 ---
-layout: posts
 title: "Deploy MISP"
 permalink: /Deploy MISP/
 hide_date: true
-order: 2
+excerpt: "Deploy a working MISP instance with Docker in a few commands."
 ---
 
 How to deploy MISP using Docker. 

@@ -117,3 +117,54 @@
     color: #888;
     margin-left: 30px;
   }
+
+/* ---------------------------------------------------------------------------
+   Resources page — tag chips + search box (moved out of inline <style>,
+   tuned for the Minimal Mistakes "dark" skin).
+   --------------------------------------------------------------------------- */
+#resource-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.resource-item {
+  margin-bottom: 0.9em;
+}
+
+.resource-item a {
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
+.tag {
+  background-color: #2a6ed6;      /* readable blue on the dark skin */
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  margin-right: 5px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.tag:hover {
+  background-color: #1b5bc0;
+}
+
+#search-box {
+  padding: 8px;
+  width: 100%;
+  max-width: 320px;
+  margin-bottom: 14px;
+  border: 1px solid #4a4a4a;
+  border-radius: 5px;
+  background-color: #1f1f24;
+  color: #e8e8e8;
+}
+
+#search-box::placeholder {
+  color: #9a9a9a;
+}

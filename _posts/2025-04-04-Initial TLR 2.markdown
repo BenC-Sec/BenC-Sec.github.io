@@ -1,9 +1,12 @@
 ---
-layout: posts
 title: "Initial Threat Landscape Report: Part 2 - General Threat Environment"
-permalink: /initial tlr GTE//
+permalink: /initial tlr GTE/
 hide_date: true
-order: 3
+excerpt: "Begin the iterative process of identifying and assessing the threats facing the business."
+tags:
+  - Collection
+  - Analysis
+  - Beginner
 ---
 
 Beginning the ongoing process of identifying and assessing threats to the business.

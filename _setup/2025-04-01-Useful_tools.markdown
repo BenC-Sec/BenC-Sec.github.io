@@ -1,16 +1,10 @@
 ---
-layout: posts
 title: "Installing useful tools"
 permalink: /install tools/
 hide_date: true
-order: 1
+excerpt: "Install Docker, Git and Visual Studio Code — the foundation for everything else in Setup."
 ---
-<!-- ---
-layout: posts
-title: "Set Up"
-hide_date: true
-order: 4
---- -->
+
 Help installing Docker, Git and Visual Studio.
 
 I've found that many common tools assume a level of technical knowledge that can make it difficult for entry-level analysts to dive in and start using them effectively. 

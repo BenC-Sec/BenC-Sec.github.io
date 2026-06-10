@@ -1,0 +1,12 @@
+# Main top navigation (D3/D5). Investigations rejoins once it has content.
+main:
+  - title: "Start Here"
+    url: /
+  - title: "Guides"
+    url: /guides/
+  - title: "Setup"
+    url: /setup/
+  - title: "Resources"
+    url: /resources/
+  - title: "About"
+    url: /about/

@@ -1,9 +1,12 @@
 ---
-layout: posts
 title: "Providing Business Value"
 permalink: /providing value/
 hide_date: true
-order: 2
+excerpt: "Win senior stakeholder support and start a CTI programme by speaking the business's language."
+tags:
+  - Direction
+  - Feedback
+  - Beginner
 ---
 
 How to gain senior stakeholder support and begin a CTI program?

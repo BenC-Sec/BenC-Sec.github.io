@@ -1,5 +1,5 @@
 ---
-title: "Installing useful tools"
+title: "Installing Useful Tools"
 permalink: /install tools/
 hide_date: true
 excerpt: "Install Docker, Git and Visual Studio Code — the foundation for everything else in Setup."
@@ -9,9 +9,9 @@ Help installing Docker, Git and Visual Studio.
 
 I've found that many common tools assume a level of technical knowledge that can make it difficult for entry-level analysts to dive in and start using them effectively. 
 
-But by installing a few basic programs, Git, Visual studio and Docker Desktop, much of the complexity is abstracted from the user and many great tools can be easilly used.
+But by installing a few basic programs, Git, Visual Studio Code and Docker Desktop, much of the complexity is abstracted from the user and many great tools can be easily used.
 
-Git is a version control system that allows users to track changes in code. A common way people use Git is by hosting public repositories, such as on Github, that anyone can access and download, enabling easy sharing of code with the broader community.
+Git is a version control system that allows users to track changes in code. A common way people use Git is by hosting public repositories, such as on GitHub, that anyone can access and download, enabling easy sharing of code with the broader community.
 
 Docker is a platform used to run containers. A container includes everything needed for an application to run such as libraries and system tools and allows the app to run consistently on any system where Docker is installed. It is not virtualisation but a restricted process in the host OS.
 
@@ -25,7 +25,7 @@ Follow the below to get your machine set up.
 
 ## Install Docker Desktop
 
-See Bret Fisher's Set up videos below which assume no previous knowledge of Docker. Note: He runs a paid Udemy course, which these free videos are  excerts from.
+See Bret Fisher's setup videos below which assume no previous knowledge of Docker. Note: He runs a paid Udemy course, which these free videos are excerpts from.
 
 <span style="font-size: 18px; font-weight: bold;">Windows</span>
 
@@ -40,7 +40,7 @@ See Bret Fisher's Set up videos below which assume no previous knowledge of Dock
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AMcvwqvgU5U?si=mp5Huyb3woyYwBjd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
 
 
-<span style="font-size: 18px; font-weight: bold;">Confirm installation</span>
+<span style="font-size: 18px; font-weight: bold;">Confirm Installation</span>
 
 Open a Terminal and run the command
 
@@ -81,7 +81,7 @@ Open a Terminal and run the command
 <code>sudo apt install git -y</code>
 </pre>
 
-<span style="font-size: 18px; font-weight: bold;">Confirm installation</span>
+<span style="font-size: 18px; font-weight: bold;">Confirm Installation</span>
 
 In a Terminal run the command
 
@@ -90,31 +90,31 @@ In a Terminal run the command
 </pre>
 
 
-## Section 3: Using git to clone a repository from github
+## Section 3: Using Git to Clone a Repository from GitHub
 
 To use the files stored in a GitHub repository, you need to copy (clone) them to your local machine. This is typically done using a terminal command via either the HTTPS or SSH protocol.
 
-First locate the clone url from the repository page in github which can be found under the Code button and clone HTTPs.
+First locate the clone URL from the repository page in GitHub which can be found under the Code button and clone HTTPS.
 
 <button class="github-code-button" type="button">
   <span class="icon">&lt;/&gt;</span> Code
 </button>
 
-In a Terminal move to or create the folder you want to store the files and run the command below, replacing clone-url with the HTTPS url you just copied. 
+In a Terminal move to or create the folder you want to store the files and run the command below, replacing clone-url with the HTTPS URL you just copied.
 
 <pre style="background-color: #1e1e1e; color: #d4d4d4; padding: 12px; border-radius: 6px; font-family: monospace; font-size: 14px;">
 <code>git clone <em>clone-url</em></code>
 </pre>
 
 
-## Section 4: Building and running a docker container
+## Section 4: Building and Running a Docker Container
 
 
 <div style="background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 12px 16px; border-radius: 6px; font-size: 16px; font-weight: bold; margin-top: 12px;">
   ⚠️ Security Warning: Only run Docker images and containers from trusted sources. Unverified or malicious images can compromise your system, steal data, or install harmful software. Always review the source and avoid elevated permissions unless necessary.
 </div><br>
 
-<span style="font-size: 18px; font-weight: bold;">Important note about Docker commands</span>
+<span style="font-size: 18px; font-weight: bold;">Important Note About Docker Commands</span>
 
 Some time ago, Docker made a change to the way commands are run, adding a command and sub-command instead of just command. The modern approach is to run commands in the format as below but you may come across both: 
 
@@ -134,7 +134,7 @@ Legacy (may still work)
 <code>docker run</code>
 </pre>
 
-Additionaly you may see
+Additionally you may see
 
 Modern
 <pre style="background-color: #1e1e1e; color: #d4d4d4; padding: 12px; border-radius: 6px; font-family: monospace; font-size: 14px;">
@@ -146,7 +146,7 @@ Legacy
 <code>docker-compose</code>
 </pre>
 
-<span style="font-size: 18px; font-weight: bold;">Key concepts to know</span>
+<span style="font-size: 18px; font-weight: bold;">Key Concepts to Know</span>
 
 <p>
   <code style="...">docker compose</code> is used to launch multi-container applications, whereas 
@@ -164,7 +164,7 @@ Download <a href="https://code.visualstudio.com/">Visual Studio Code</a>
 
 Follow the installation instructions.
 
-Once in Visual Studio install the <a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker"> docker</a> <a href=" https://code.visualstudio.com/docs/getstarted/extensions"> extension</a>
+Once in Visual Studio Code install the <a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker"> Docker</a> <a href=" https://code.visualstudio.com/docs/getstarted/extensions"> extension</a>
 
 You now have a foundational setup to deploy and manage Docker based applications.
 

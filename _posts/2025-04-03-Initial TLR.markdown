@@ -12,7 +12,7 @@ Communication in a business friendly language and format
 
 To see why starting with an initial TLR has benefits, take a look at <a href="/providing value/">Providing Business Value </a>
 
-## Where to start?
+## Where to Start?
 
 <blockquote style="margin-top: 10px; margin-left: 20px; font-style: italic; color: #f4f938;">
   “The two words 'information' and 'communication' are often used interchangeably, but they signify quite different things. Information is giving out; communication is getting through.”<br>
@@ -21,15 +21,15 @@ To see why starting with an initial TLR has benefits, take a look at <a href="/p
 
 <!-- If your organisation already has a CTI strategy in place see the Mature Cyber Threat Landscape Report  -->
 
-## What language does the business speak?
+## What Language Does the Business Speak?
 
-All functions within a business, including CTI, should ultimately support the organization's core objectives. When CTI is framed around these objectives, it creates a common language that enables clearer communication.
+All functions within a business, including CTI, should ultimately support the organisation's core objectives. When CTI is framed around these objectives, it creates a common language that enables clearer communication.
 
 Business objectives typically include:
 
-  * Profitability: Protecting revenue and minimizing financial loss.
+  * Profitability: Protecting revenue and minimising financial loss.
 
-  * Efficiency: Streamlining operations and minimizing disruptions.
+  * Efficiency: Streamlining operations and minimising disruptions.
 
   * Reducing Spending: Avoiding unnecessary costs.
 
@@ -39,21 +39,21 @@ Business objectives typically include:
 
 A simple example:
 
-❌ Treat actors can use WinRAR to archive files before uploading them to SaaS applications. 
+❌ Threat actors can use WinRAR to archive files before uploading them to SaaS applications. 
 
 ✅  Threat actors can use WinRAR to archive files before uploading them to SaaS applications. Exfiltrated data may include PII or intellectual property, potentially causing significant reputational damage and financial penalties due to regulatory violations. 
 
 If a recent example can be provided with the estimated cost to the victim even better.
 
-## MITRE ATT&CK - a standardized vocabulary for TTPs
+## MITRE ATT&CK - a Standardised Vocabulary for TTPs
 
-The <a href="https://attack.mitre.org/matrices/enterprise/">MITRE ATT&CK Framework </a> provides a common taxonomy that allows TTPs to be consistently compared across different adversary groups using the same standardized terminology.
+The <a href="https://attack.mitre.org/matrices/enterprise/">MITRE ATT&CK Framework </a> provides a common taxonomy that allows TTPs to be consistently compared across different adversary groups using the same standardised terminology.
 
-By incorporating the MITRE ATT&CK framework in the Threat Landscape Report, not only are the TTPs clearly indicated, but readers can also easily research and understand the associated behaviors.
+By incorporating the MITRE ATT&CK framework in the Threat Landscape Report, not only are the TTPs clearly indicated, but readers can also easily research and understand the associated behaviours.
 
 A simple example:
 
-❌ Treat actors can use WinRAR to archive files before uploading them to SaaS applications. 
+❌ Threat actors can use WinRAR to archive files before uploading them to SaaS applications. 
 
 ✅  Threat actors can use WinRAR (T1560.001 Archive via Utility) before uploading them to SaaS applications (T1567.002 Exfiltration to Cloud Storage). Exfiltrated data may include PII or intellectual property, potentially causing significant reputational damage and financial penalties due to regulatory violations. 
 

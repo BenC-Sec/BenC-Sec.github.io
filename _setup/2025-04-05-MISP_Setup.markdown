@@ -7,18 +7,18 @@ excerpt: "Deploy a working MISP instance with Docker in a few commands."
 
 How to deploy MISP using Docker. 
 
-See the <a href="/install tools/">installing useful tools</a> page if you haven't worked with docker before or search docker in the <a href="/resources/">resources.</a> 
+See the <a href="/install tools/">installing useful tools</a> page if you haven't worked with Docker before or search Docker in the <a href="/resources/">resources.</a>
 
-## Key concepts to know
+## Key Concepts to Know
 
 
-Below are instructions to create an initial non production set up. For more information on installation and usage of OpenCTI see the <a href="https://www.circl.lu/doc/misp/" target="_blank" style="color: #3399ff; font-weight: normal; font-size: 14px;">Official documentation.</a>
+Below are instructions to create an initial non production set up. For more information on installation and usage of MISP see the <a href="https://www.circl.lu/doc/misp/" target="_blank" style="color: #3399ff; font-weight: normal; font-size: 14px;">Official documentation.</a>
 
 ## Deploying MISP
 
- <span style="font-size: 18px; font-weight: bold;">Clone the repository</span>
+ <span style="font-size: 18px; font-weight: bold;">Clone the Repository</span>
 
-Create or navigate to a folder that will store the MISP repository. Once inside, copy the contents of the repository from Github to your machine by running on the command line:
+Create or navigate to a folder that will store the MISP repository. Once inside, copy the contents of the repository from GitHub to your machine by running on the command line:
 
 <p>
   <code style="...">git clone https://github.com/MISP/misp-docker.git</code>
@@ -30,7 +30,7 @@ The files will be downloaded contained in a folder called misp-docker. Change di
   <code style="...">cd misp-docker</code>
 </p>
 
- <span style="font-size: 18px; font-weight: bold;">Create the .env file</span>
+ <span style="font-size: 18px; font-weight: bold;">Create the .env File</span>
 
 Copy the file called template.env to a new file called .env.
 

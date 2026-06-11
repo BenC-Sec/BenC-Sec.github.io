@@ -12,6 +12,7 @@ business case through to mapping threat-actor TTPs.
 Every guide is tagged by **intelligence-cycle stage** and **difficulty** — browse
 all tags on the [tag index](/tags/).
 
-{% for post in site.posts %}
+{% comment %} Oldest-first so the series reads Part 1 → Part 4 (dates run in reading order). {% endcomment %}
+{% for post in site.posts reversed %}
   {% include archive-single.html %}
 {% endfor %}

@@ -9,11 +9,11 @@ tags:
   - Beginner
 ---
 
-How to gain senior stakeholder support and begin a CTI program?
+How to gain senior stakeholder support and begin a CTI programme?
 
 Communication.
 
-## Where to start?
+## Where to Start?
 <!-- <span style="font-size: 18px; font-weight: bold;">Where to start? </span> -->
 
 <blockquote style="margin-top: 10px; margin-left: 20px; font-style: italic; color: #f4f938;">
@@ -21,7 +21,7 @@ Communication.
   <span style="font-style: normal; font-weight: bold;">— Charles Kettering</span>
 </blockquote><br>
 
-As Cyber Threat Intelligence (CTI) Analysts, we produce a range of intelligence products tailored to diverse stakeholders. Each requires their own approach. 
+As Cyber Threat Intelligence (CTI) analysts, we produce a range of intelligence products tailored to diverse stakeholders. Each requires their own approach. 
 
 When aiming to inform key decision makers with strategic intelligence, we need to speak their language. They focus on achieving business objectives and are not necessary technically minded. 
 

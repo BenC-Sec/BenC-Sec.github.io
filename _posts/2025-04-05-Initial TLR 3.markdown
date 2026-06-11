@@ -1,5 +1,5 @@
 ---
-title: "Initial Threat Landscape Report: Part 3 - Converging on specific threats"
+title: "Initial Threat Landscape Report: Part 3 - Converging on Specific Threats"
 permalink: /initial tlr CST/
 hide_date: true
 excerpt: "Narrow from broad actor classes to the specific intrusion sets likely to target your country and sector."
@@ -13,7 +13,7 @@ Continuing the ongoing process of identifying and assessing threats to the busin
 
 You can find the first part of this series here: <a href="/initial tlr lan/">Initial Threat Landscape Report: Part 1 - Language </a>
 
-## Where to start?
+## Where to Start?
 
 <blockquote style="margin-top: 10px; margin-left: 20px; font-style: italic; color: #f4f938;">
   "That is the only way I ever heard of true research going. I asked a question, devised some method of obtaining an answer, and got a fresh question. Was this possible or that possible? You cannot imagine what this means to an investigator, what an intellectual passion grows upon him! You cannot imagine the strange, colourless delight of these intellectual desires!"<br>
@@ -36,58 +36,58 @@ Note: A standard for Threat Actor naming does not exist and as such Threat Actor
 
 Example:
 
-Searching for APTs targetting the UK and Legal sector
+Searching for APTs targeting the UK and legal sector
 
 <a href="https://attack.mitre.org/groups/">MITRE ATT&CK Groups</a>  identifies:
 
 APT17
-* Targetting legal : Yes
-* Targetting UK : Unknown
+* Targeting legal : Yes
+* Targeting UK : Unknown
 
 APT19
-* Targetting legal : Yes
-* Targetting UK : Unknown
+* Targeting legal : Yes
+* Targeting UK : Unknown
 
 HAFNIUM
-* Targetting legal : Yes
-* Targetting UK : Unknown
+* Targeting legal : Yes
+* Targeting UK : Unknown
 
 WIRTE
-* Targetting legal : Yes
-* Targetting UK : No
+* Targeting legal : Yes
+* Targeting UK : No
 
 RedCurl <br>
 Note: Not identified with initial search but retrospectively after being linked to a recent attack
-* Targetting legal : Unknown
-* Targetting UK : Yes
+* Targeting legal : Unknown
+* Targeting UK : Yes
 
 <a href="https://cloud.google.com/security/resources/insights/apt-groups#advanced-persistent-threats-apts">Google Cloud Security APT groups</a> identifies the following:
 
 APT1
-* Targetting legal : Yes
-* Targetting UK : Yes
+* Targeting legal : Yes
+* Targeting UK : Yes
 
 APT17
-* Targetting legal : Yes
-* Targetting UK : Yes
+* Targeting legal : Yes
+* Targeting UK : Yes
 
 APT19
-* Targetting legal : Yes
-* Targetting UK : Unknown
+* Targeting legal : Yes
+* Targeting UK : Unknown
 
-<a href="https://www.esentire.com/blog/unraveling-the-many-stages-and-techniques-used-by-redcurl-earthkapre-apt">A google search </a> identifies a recent attack against a UK Law firm. 
+<a href="https://www.esentire.com/blog/unraveling-the-many-stages-and-techniques-used-by-redcurl-earthkapre-apt">A Google search </a> identifies a recent attack against a UK law firm.
 
 RedCurl / EarthKapre 
-* Targetting legal : Yes
-* Targetting UK : Yes
+* Targeting legal : Yes
+* Targeting UK : Yes
 
 Initial research indicates that RedCurl is of primary interest being linked to a recent attack (though beware of mis-attribution in attacks). APT17 and APT19 are of secondary interest being mentioned in multiple sources.
 
-Note: I've used a very limited amount of sources for this example, and more should be used at this initial stage of identifying possible APT groups targetting the business. 
+Note: I've used a very limited amount of sources for this example, and more should be used at this initial stage of identifying possible APT groups targeting the business. 
 
 ## Focusing Research Efforts on Identified Threat Actors
 
-After identifying Threat Actors that are likely targetting the relevant country & sectors to the business, it is time to start building Threat Actor Profiles, which I will be covering in a future post.
+After identifying Threat Actors that are likely targeting the relevant country & sectors to the business, it is time to start building Threat Actor Profiles, which I will be covering in a future post.
 
 For the purposes of the Initial TLR however, it is only necessary at this stage to focus on one representative threat per threat actor classification. By limiting the scope, we keep the report to a manageable size, reduce research effort, and ensure we meet the report's objectives at this stage, while acknowledging that it does not capture all potential threats.
 

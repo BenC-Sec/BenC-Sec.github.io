@@ -4,9 +4,9 @@
 
 - title: Curated Intel's collection of papers, blogs, and resources
   url: https://github.com/curated-intel/CTI-fundamentals
-  tags: ["Reports", "Guides", "Frameworks", "Research", "Intelligence Programs", "Mitigations"]
+  tags: ["Reports", "Guides", "Frameworks", "Research", "Intelligence Programmes", "Mitigations"]
 
-- title: Curated Intel's CTI Research guide
+- title: Curated Intel's CTI Research Guide
   url: https://github.com/curated-intel/The-CTI-Research-Guide?tab=readme-ov-file
   tags: ["Guides", "Research", "Collection", "Processing","Analysis"]
 
@@ -16,7 +16,7 @@
 
 - title: MITRE ATT&CK Groups
   url: https://attack.mitre.org/groups/
-  tags: ["Framework", "Threat modeling", "Research", "Intrusion Sets", "TTPs", "Mitigations", "Tools"]
+  tags: ["Framework", "Threat Modelling", "Research", "Intrusion Sets", "TTPs", "Mitigations", "Tools"]
 
 - title: BushidoUK, Threat Intel Sources
   url:   https://github.com/BushidoUK/Ransomware-Tool-Matrix?tab=readme-ov-file#threat-intel-sources
@@ -60,7 +60,7 @@
 
 - title: Attack Evaluation Library
   url:   https://attackevals.github.io/ael/?ref=sourcesmethods.com
-  tags: ["Framework", "Threat modeling", "Research", "Intrusion Sets", "TTPs", "Tools"]
+  tags: ["Framework", "Threat Modelling", "Research", "Intrusion Sets", "TTPs", "Tools"]
 
 - title: Natto thoughts
   url:   https://nattothoughts.substack.com/
@@ -82,13 +82,13 @@
   url:   https://github.com/jacobdjwilson/awesome-annual-security-reports/tree/main/
   tags: ["Research", "Reports", "Intrusion Sets", "Threat Actor"]
 
-- title: Search Github Repositories
+- title: Search GitHub Repositories
   url:   https://grep.app/
-  tags: ["Utility", "OSINT", "Github"]
+  tags: ["Utility", "OSINT", "GitHub"]
 
 - title: Infernux.no Security Monitoring - Threat modelling and data sources
   url:   https://www.infernux.no/SecurityMonitoring-DataSources/
-  tags: ["Threat modelling", "Walk through"]  
+  tags: ["Threat Modelling", "Walkthrough"]  
 
 - title: Domain Tools Research
   url:   https://dti.domaintools.com/
@@ -100,7 +100,7 @@
 
 - title: Aristiun Threat Modeling
   url:   https://threat-modeling.com/ultimate-threat-modeling-example-methods/
-  tags: ["Threat modelling", "Guides", "Walkthrough"]  
+  tags: ["Threat Modelling", "Guides", "Walkthrough"]  
 
 - title: Rösti Repackaged Öpen Source Threat Intelligence
   url:   https://rosti.bin.re/
@@ -108,7 +108,7 @@
  
 - title: Bret Fisher Docker Mastery Udemy 
   url:   https://www.bretfisher.com/courses/
-  tags: ["Guide", "Walk through", "Docker"]  
+  tags: ["Guide", "Walkthrough", "Docker"]  
 
 - title: MUCHDOGESEC curated list of Threat Intelligence Blogs
   url:   https://github.com/muchdogesec/awesome_threat_intel_blogs
@@ -144,8 +144,8 @@
 
 - title: EFF OSINT Tools
   url:   https://www.eff.org/pages/tools
-  tags: ["Guide","OSINT", "collection"]  
+  tags: ["Guide","OSINT", "Collection"]  
 
 - title: Micheal Bazzell IntelTechniques
   url:   https://inteltechniques.com/tools/
-  tags: ["Guide","OSINT", "collection", "Utility"] 
+  tags: ["Guide","OSINT", "Collection", "Utility"] 

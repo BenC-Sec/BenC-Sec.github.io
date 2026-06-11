@@ -7,15 +7,15 @@ excerpt: "Stand up OpenCTI with Docker, configure the .env file and wire in your
 
 How to deploy OpenCTI using Docker and get some initial feeds. 
 
-See the <a href="/install tools/">installing useful tools</a> page if you haven't worked with docker before or search docker in the <a href="/resources/">resources.</a> 
+See the <a href="/install tools/">installing useful tools</a> page if you haven't worked with Docker before or search Docker in the <a href="/resources/">resources.</a>
 
-## Key concepts to know
+## Key Concepts to Know
 
 OpenCTI requires a .env file to be configured before it can run. Several of the required values are UUIDs, which can be easily generated using tools like jsonreader.com’s UUID generator. Simply generate, copy, and paste the UUIDs into the appropriate fields in your .env file.
 
 OpenCTI uses connectors, which are services running as Docker containers, to ingest external data sources. Each connector requires specific configuration settings in the docker-compose.yml file. 
 
-The configurations for connectors can be found <a href="https://github.com/OpenCTI-Platform/connectors/tree/master/external-import">here.</a> These can be run as individual containers or you can add the compose instructions to the OpenCTI Docker-compose.yml file as will be done below.
+The configurations for connectors can be found <a href="https://github.com/OpenCTI-Platform/connectors/tree/master/external-import">here.</a> These can be run as individual containers or you can add the compose instructions to the OpenCTI docker-compose.yml file as will be done below.
 
 As you integrate more connectors into your OpenCTI instance, be aware that the resource load will increase accordingly. For production environments, it is better to deploy connectors in their own separate infrastructure.
 
@@ -23,9 +23,9 @@ Below are instructions to create an initial non production set up. For more info
 
 ## Deploying OpenCTI
 
- <span style="font-size: 18px; font-weight: bold;">Clone the repository</span>
+ <span style="font-size: 18px; font-weight: bold;">Clone the Repository</span>
 
-Create or navigate to a folder that will store the OpenCTI repository. Once inside, copy the contents of the repository from Github to your machine by running on the command line:
+Create or navigate to a folder that will store the OpenCTI repository. Once inside, copy the contents of the repository from GitHub to your machine by running on the command line:
 
 <p>
   <code style="...">git clone https://github.com/OpenCTI-Platform/docker.git</code>
@@ -37,7 +37,7 @@ The files will be downloaded contained in a folder called docker. Change directo
   <code style="...">cd docker</code>
 </p>
 
- <span style="font-size: 18px; font-weight: bold;">Create and edit the .env file</span>
+ <span style="font-size: 18px; font-weight: bold;">Create and Edit the .env File</span>
 
 Create a file called .env and open it ready to paste the environment variables into it.
 
@@ -46,7 +46,7 @@ Create a file called .env and open it ready to paste the environment variables i
   <code style="...">nano .env</code>
 </p>
 
-<span style="font-size: 15px; font-weight: bold;">Windows CMD or Powershell</span>
+<span style="font-size: 15px; font-weight: bold;">Windows CMD or PowerShell</span>
 <p>
   <code style="...">notepad .env</code>
 </p>
@@ -79,13 +79,13 @@ SMTP_HOSTNAME=localhost
 <br>
 If using nano, save the file by holding <code style="...">control</code> and pressing <code style="...">x</code> and when asked to save the modified buffer, pressing <code style="...">y</code>
 
- <span style="font-size: 18px; font-weight: bold;">Adding connectors</span>
+ <span style="font-size: 18px; font-weight: bold;">Adding Connectors</span>
 
 To add a connector to your docker-compose.yml file, start by locating the connector’s own docker-compose.yml from the <a href="https://github.com/OpenCTI-Platform/connectors/blob/master/external-import/cisa-known-exploited-vulnerabilities/docker-compose.yml">OpenCTI repository.</a> 
 
 If adding the connector to the main docker-compose.yml file used by OpenCTI, paste the contents of the connector’s docker-compose.yml below the existing connectors in that file.
 
-For example, to add the CISA KEV conenctor paste in the contents of the docker-compose.yml excluding
+For example, to add the CISA KEV connector paste in the contents of the docker-compose.yml excluding
 
 version: '3' <br>
 services:
@@ -98,7 +98,7 @@ depends_on:<br>
 
 Then change the variables as shown to match the OpenCTI .env file created earlier.
 
-Your OpenCTI docker-compose.yml file would include the following instructions, postioned below the other connectors and above volumes:
+Your OpenCTI docker-compose.yml file would include the following instructions, positioned below the other connectors and above volumes:
 
 <div class="vscode-window-light">
   <div class="vscode-header-light">
@@ -135,7 +135,7 @@ Repeat for each new connector
 
  <span style="font-size: 18px; font-weight: bold;">Launch OpenCTI</span>
  
-Ensure you are in the docker folder for OpenCTI. After making any changes to your Docker-compose.yml file, to launch OpenCTI you should run
+Ensure you are in the docker folder for OpenCTI. After making any changes to your docker-compose.yml file, to launch OpenCTI you should run
 
 <p>
   <code style="..."> docker compose up -d --build</code>
@@ -146,6 +146,6 @@ After a few minutes, open a browser and go to http://localhost:8080/. Use the us
 If you wish to stop OpenCTI then run the command
   <code style="..."> docker compose stop</code>
 
-Then if you wish to start MISP again, run the command
+Then if you wish to start OpenCTI again, run the command
   <code style="..."> docker compose start</code>
 

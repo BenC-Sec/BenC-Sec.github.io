@@ -13,7 +13,7 @@ Beginning the ongoing process of identifying and assessing threats to the busine
 
 You can find the first part of this series here: <a href="/initial tlr lan/">Initial Threat Landscape Report: Part 1 - Language </a>
 
-## Where to start?
+## Where to Start?
 
 <blockquote style="margin-top: 10px; margin-left: 20px; font-style: italic; color: #f4f938;">
   “Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.”<br>
@@ -23,7 +23,7 @@ You can find the first part of this series here: <a href="/initial tlr lan/">Ini
 
 <!-- If your organisation already has a CTI strategy in place see the Mature Cyber Threat Landscape Report  -->
 
-## The General threat environment
+## The General Threat Environment
 
 Identifying general threats that need to be communicated to stakeholders in the TLR.
 
@@ -31,18 +31,18 @@ I recommend beginning with a review of Government and trusted private sector rep
 
 <h3 style="color: #CCCCCC; text-decoration: underline;">Identify Threat Actor Classifications</h3>
 
-The industry tends to group threat actors based on shared characteristics. This includes their motivations, organizational structure, capabilities, and available resources.
+The industry tends to group threat actors based on shared characteristics. This includes their motivations, organisational structure, capabilities, and available resources.
 
 Example:
 
 <a href="https://www.enisa.europa.eu/publications/enisa-threat-landscape-2024">ENISA's Threat Landscape report </a> identifies the following key threat actor categories. <br> Note: I have added in brackets alternative names often seen for each classification.
 
 * State-nexus (Advanced Persistent Threats- APTs)
-* Criminal (Organised Criminal Networks, OCNs / Organised Criminal groups OCGs)
+* Criminal (Organised Criminal Networks, OCNs / Organised Criminal Groups, OCGs)
 * Private sector
-* Hactivists
+* Hacktivists
 
-For an intitial TLR I would recommend limiting the classifications to no more than 3 or 4. The objective at this stage is to provide a broad overview of the threat landscape, excessive detail may hinder understanding.
+For an initial TLR I would recommend limiting the classifications to no more than 3 or 4. The objective at this stage is to provide a broad overview of the threat landscape, excessive detail may hinder understanding.
 
 <h3 style="color: #CCCCCC; text-decoration: underline;">Understand Each Threat Actor Classification – Motives and Capabilities</h3>
 
@@ -56,7 +56,7 @@ The <a href="https://www.ncsc.gov.uk/files/Cyber%20crime%20-%20understabnding%20
 
 From these it can be seen that OCNs are:
 
-* Motivated primarilly by financial gain
+* Motivated primarily by financial gain
 * Have medium to high organisation levels
 * Have medium to high resources and capabilities
 
@@ -78,21 +78,21 @@ Reviewing multiple industry sources, some key trends in 2024 / early 2025 are ap
 
 <a href="https://www.microsoft.com/en-us/security/security-insider/intelligence-reports/microsoft-digital-defense-report-2024">Microsoft Digital Defence Report 2024</a> reports: 
 * Blurring of the lines between nation state and criminal activity
-* Increasing number of Identity attacks, primarily password attacks
+* Increasing number of identity attacks, primarily password attacks
 
 <a href="https://www.paloaltonetworks.com/resources/research/2025-incident-response-report">Palo Alto's Global Incident Response Report 2025</a> reports: 
 
 * Increasing number and sophistication of software supply chain and cloud attacks 
 * Increasing Identity Access Management issues
-* Increasing Insider risk
+* Increasing insider risk
 
 <a href="https://www.cve.org/about/Metrics">MITRE's CVE Program</a> reports:
 
-* Increaseing number of reported vulnerabilites in 2024 
+* Increasing number of reported vulnerabilities in 2024
 
 By reviewing a wide range of trusted sources and applying sound analytical methods, you can build a more reliable and comprehensive picture of the threat environment
 
-The next part, <a href='/initial tlr CST/'>Initial Threat Landscape Report: Part 3 – Converging on Specific Threats</a>, continues the iterative process of identifying threats to the organization and begins narrowing the focus to those most relevant to your specific environment.
+The next part, <a href='/initial tlr CST/'>Initial Threat Landscape Report: Part 3 – Converging on Specific Threats</a>, continues the iterative process of identifying threats to the organisation and begins narrowing the focus to those most relevant to your specific environment.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Browse guides by tag"
+title: "Browse Guides by Tag"
 layout: tags
 permalink: /tags/
 author_profile: true
